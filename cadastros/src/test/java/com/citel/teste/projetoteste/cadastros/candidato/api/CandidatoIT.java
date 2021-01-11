@@ -34,7 +34,7 @@ class CandidatoIT {
     private CandidatoRepository candidatoRepository;
 
     @Test
-    @DisplayName("Deve cadastrar uma fazenda corretamente")
+    @DisplayName("Deve cadastrar um candidato")
     void cadastrar() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.post(API_PATH))
 //                .contentType(MediaType.APPLICATION_JSON))
